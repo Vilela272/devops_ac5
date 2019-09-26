@@ -1,7 +1,7 @@
 import pytest
 from com.devac5.operacoes import Multiplicacao
 
-class TestOperacoes(TestCase):
+class TestOperacoes():
 
 	def test_mult():
 		operacoes = Multiplicacao

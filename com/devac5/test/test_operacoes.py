@@ -5,4 +5,4 @@ class TestOperacoes():
 
 	def test_mult():
 		operacoes = Multiplicacao
-		assert test_mult([5,5]), 25, "Resultado 25" 
+		assert test_mult([5,5]) == 25, "Resultado 25" 

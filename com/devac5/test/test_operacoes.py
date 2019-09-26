@@ -1,4 +1,4 @@
-from pytest
+import pytest
 from com.devac5.operacoes import Multiplicacao
 
 class TestOperacoes(TestCase):

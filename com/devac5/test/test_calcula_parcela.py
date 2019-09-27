@@ -8,3 +8,7 @@ def valorPagamento():
 def valorPagamento():
 	calcula_parcela = valorPagamento
 	assert valorPagamento([10, 0]) == 10 , "O resultado será 10"
+
+def valorPagamento():
+	calcula_parcela = valorPagamento
+	assert valorPagamento([0, 0]) == 0 , "O resultado será 0"
